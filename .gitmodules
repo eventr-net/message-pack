@@ -1,0 +1,4 @@
+[submodule "shared-solution-files"]
+	path = shared-solution-files
+	url = https://github.com/eventr-net/shared-solution-files.git
+	branch = master

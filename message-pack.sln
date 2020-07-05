@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventR.MessagePack", "src\EventR.MessagePack\EventR.MessagePack.csproj", "{531539C7-DB53-4CCB-BEA9-C05FE6C50530}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{4C7A2784-57FF-4645-834E-89EB72A58AF0}"
+	ProjectSection(SolutionItems) = preProject
+		build.ps1 = build.ps1
+		dependencies.props = dependencies.props
+		nuget.config = nuget.config
+		shared.props = shared.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D76EED05-458E-4F94-9F5E-1080D9FD2D4B}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{75D9ADD4-E4A1-4996-8FF0-4787B11F534C}"
+	ProjectSection(SolutionItems) = preProject
+		test\Directory.Build.props = test\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2B4E5A40-9712-46B3-9B6B-A416BB938D0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventR.MessagePack.Tests", "test\EventR.MessagePack.Tests\EventR.MessagePack.Tests.csproj", "{D811210E-61EC-42C4-859E-0BA1511C0D40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{531539C7-DB53-4CCB-BEA9-C05FE6C50530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531539C7-DB53-4CCB-BEA9-C05FE6C50530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531539C7-DB53-4CCB-BEA9-C05FE6C50530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531539C7-DB53-4CCB-BEA9-C05FE6C50530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D811210E-61EC-42C4-859E-0BA1511C0D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D811210E-61EC-42C4-859E-0BA1511C0D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D811210E-61EC-42C4-859E-0BA1511C0D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D811210E-61EC-42C4-859E-0BA1511C0D40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D76EED05-458E-4F94-9F5E-1080D9FD2D4B} = {4C7A2784-57FF-4645-834E-89EB72A58AF0}
+		{75D9ADD4-E4A1-4996-8FF0-4787B11F534C} = {4C7A2784-57FF-4645-834E-89EB72A58AF0}
+		{D811210E-61EC-42C4-859E-0BA1511C0D40} = {2B4E5A40-9712-46B3-9B6B-A416BB938D0D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {407DB953-5F40-45E5-B700-EBDB2373C19B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(LibTargetFramework)</TargetFramework>
+    <PackageDescription>MessagePack implementation of EventR serialization layer</PackageDescription>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EventR.Abstractions" Version="$(EventrCoreVersion)" />
+    <PackageReference Include="MessagePack" Version="$(MessagePackVersion)" />
+  </ItemGroup>
+
+</Project>

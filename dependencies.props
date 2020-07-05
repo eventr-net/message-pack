@@ -1,0 +1,19 @@
+<Project>
+
+  <PropertyGroup>
+    <FxCopAnalyzersVersion>2.9.8</FxCopAnalyzersVersion>
+    <StyleCopAnalyzersVersion>1.1.118</StyleCopAnalyzersVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <MessagePackVersion>2.1.90</MessagePackVersion>
+    <EventrCoreVersion>1.0.0</EventrCoreVersion>
+    <MicrosoftExtensionsVersion>2.2.0</MicrosoftExtensionsVersion>
+    <TestSdkVersion>16.5.0</TestSdkVersion>
+    <MoqVersion>4.13.1</MoqVersion>
+    <XunitVersion>2.4.1</XunitVersion>
+    <CompareNETObjectsVersion>4.65.0</CompareNETObjectsVersion>
+    <AppveyorTestLoggerVersion>2.0.0</AppveyorTestLoggerVersion>
+  </PropertyGroup>
+
+</Project>

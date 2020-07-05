@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(AppTargetFramework)</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\EventR.MessagePack\EventR.MessagePack.csproj" />
+    <PackageReference Include="EventR" Version="$(EventrCoreVersion)" />
+    <PackageReference Include="EventR.Spec" Version="$(EventrCoreVersion)" />
+  </ItemGroup>
+
+</Project>
